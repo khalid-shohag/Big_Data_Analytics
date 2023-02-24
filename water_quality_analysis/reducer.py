@@ -5,7 +5,7 @@ import sys
 count = 0
 sum = 0.0
 for line in sys.stdin:
-    (key, val) = line.strip().split(",")
+    (key, val) = line.strip().split("khalidhasanshohag")
     #print(key, val, name==key)
     if name != key:
         if count > 0:
@@ -19,8 +19,10 @@ for line in sys.stdin:
             #     # print(key + " " + str(averag_pH_value))
             else:
                 water_quality = "Good"
-            print(name + " Water quality is" + water_quality)
-            count = 1;
+            print(name + " Water quality is " + water_quality)
+            count = 1
+            if val=='':
+                val="0"
             (name, ph_value) = (key, float(val))
             sum = ph_value
            # print(name+" Water quality is"+water_quality)
@@ -31,6 +33,8 @@ for line in sys.stdin:
             sum += ph_value
     else:
         count += 1
+        if val == '':
+            val = "0"
         sum += float(val)
 if name:
     average_pH_value = sum / count
