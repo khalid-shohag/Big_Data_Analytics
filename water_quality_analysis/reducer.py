@@ -5,7 +5,7 @@ import sys
 count = 0
 sum = 0.0
 for line in sys.stdin:
-    (key, val) = line.strip().split("khalidhasanshohag")
+    (key, val) = line.strip().split(",")
     #print(key, val, name==key)
     if name != key:
         if count > 0:
