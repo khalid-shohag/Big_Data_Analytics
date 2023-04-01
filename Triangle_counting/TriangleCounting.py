@@ -34,7 +34,7 @@ for line in sys.stdin:
         indexU = hashValue(list, u)
         indexV = hashValue(list, v)
         # print(str(indexU)+" "+str(indexV))
-        partition = 50
+        partition = 10
         for i in range(partition-1):
             j = i+1
             while j <= partition-1:

@@ -34,10 +34,10 @@ edge_list = []
 count = 0
 adj_list = []
 total_triangle = 0
-for i in range(81306):
+for i in range(4039):
     adj_list.append([])
 
-partition = 50
+partition = 10
 
 for line in sys.stdin:
     # fileOne.write(line)
