@@ -10,6 +10,10 @@ This repository contains the practice sample of what I did to learn Big Data ana
 
 
 # Triangle Counitng
+This folder contains the implementation of a research paper titled 'An Efficient MapReduce Algorithm for Counting Triangles in a Very Large Graph'
+  
+  #paper <a href="http://snap.stanford.edu/data/ego-Facebook.html" target="_blank">An Efficient MapReduce Algorithm for Counting Triangles in a Very Large Grapht</a>
+  
   #data source
     <a href="http://snap.stanford.edu/data/ego-Facebook.html" target="_blank">facebook dataset</a>
 
